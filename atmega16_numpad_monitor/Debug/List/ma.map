@@ -1,0 +1,28 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ssd                                                                               0x0160      10
+cpositions                                                                        0x016A       3
+rcposition                                                                        0x016D      24
+number                                                                            0x0185      20
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+position                                                                          R5           1
+sh_i                                                                              R6,R7        2
+bt_i                                                                              R8,R9        2
+i                                                                                 R10,R11      2
+j                                                                                 R12,R13      2
+ch                                                                                R2.0      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x0008D     71
+show                                                                              0x000D4     23
+check                                                                             0x000EB     56
