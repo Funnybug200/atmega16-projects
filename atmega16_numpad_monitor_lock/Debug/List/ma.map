@@ -1,0 +1,34 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ssd                                                                               0x0160      10
+cpositions                                                                        0x016A       3
+tryes                                                                             0x016D       4
+rcposition                                                                        0x0171      24
+k                                                                                 0x0189       2
+temp                                                                              0x018B       2
+number                                                                            0x018D      20
+password                                                                          0x01A1      20
+try                                                                               0x01B5       2
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+position                                                                          R5           1
+sh_i                                                                              R6,R7        2
+bt_i                                                                              R8,R9        2
+i                                                                                 R10,R11      2
+j                                                                                 R12,R13      2
+ch                                                                                R2.0      1bit
+l_check                                                                           R2.1      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x0009F    174
+show                                                                              0x0014D     24
+check                                                                             0x00165     59
